@@ -4,6 +4,7 @@
 name: Auto Test
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master, 1.23.X ]
     paths-ignore:
